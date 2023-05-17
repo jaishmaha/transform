@@ -1,0 +1,188 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container
+{
+	width:90%;
+	margin:0 auto;
+	padding-top:10px;
+	
+}
+.post-row
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.col-1
+{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-2
+{
+	width:16.66%;
+	padding:0 15px;
+}
+.col-3
+{
+	width:25%;
+	padding:0 15px;
+}
+.col-4
+{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-5
+{
+	width:41.66%;
+	padding:0 15px;
+}
+.col-6
+{
+	width:50%;
+	padding:0 15px;
+}
+.col-7
+{
+	width:58.33%;
+	padding:0 15px;
+}
+.col-8
+{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-9
+{
+	width:75%;
+	padding:0 15px;
+}
+.col-10
+{
+	width:83.33%;
+	padding:0 15px;
+}
+.col-11
+{
+	width:91.66%;
+	padding:0 15px;
+}
+.col-12
+{
+	width:100%;
+	padding:0 15px;
+}
+
+.head-para
+{
+	text-align:center;
+	padding:40px 0;
+}
+.head-para h1
+{
+	position:relative;
+}
+.head-para h1::before
+{
+	content:"";
+	border:2px solid orange;
+	width:100px;
+	position:absolute;
+	top:50%;
+	left:30%;
+}
+.head-para h1::after
+{
+	content:"";
+	border:2px solid orange;
+	width:100px;
+	position:absolute;
+	top:50%;
+	right:30%;
+}
+	
+.imgs-cont
+{
+	border: 1px solid gray;
+	box-shadow:0 0 8px gray;
+	
+}
+
+.imgs img
+{
+	width:100%;
+}
+
+.img-position
+{
+	position:relative;
+}
+
+.img-position span
+{
+	position:absolute;
+	right:0;
+	bottom:0px;
+	background-color:orange;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+
+}
+.cont
+{
+	padding:10px 20px;
+	border-bottom:80px;
+	border-bottom-color:gray;
+}
+
+.cont-child
+{
+	padding:40px 20px;
+	border-bottom:2px solid gray;
+}
+.cont-child h2
+{
+	padding:20px 0;
+}
+.cont-child span i
+{
+	padding-top:30px 0;
+}
+.cont span i,span
+{
+	padding:0 8px;
+}
+.anchor
+{
+	padding:20px 5px;
+}
+	
+.anchor a
+{
+	font-size:20px;
+	text-decoration:none;
+	color:gray;
+}
+span i
+{
+	color:orange;
+}
+.imgs-cont:hover .imgs
+{
+	transform:scale(1.1);
+	transition: all 0.8s ease-in-out;
+}
+.img-position
+{
+	overflow:hidden;
+}
+.imgs-cont:hover .cont h2, .imgs-cont:hover .anchor a
+{
+	color:orange;
+}
+	
